@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section {
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: myfont1;
+  src: url(font/Hey\ August.ttf);
+  font-family: myfont2;
+  src: url(font/Courgette-Regular.ttf);
+}
+/* navbar */
+.navjdl {
+  font-family: myfont1;
+  font-size: 26px;
+  color: white;
+}
+.nav-item a {
+  color: white;
+}
+/* end navbar */
+
+/* home */
+@media (max-width: 768px) {
+  .home {
+    height: 80%;
+  }
+}
+
+.home {
+  background-color: black;
+  height: 85vh;
+  width: 100%;
+}
+
+.jdl {
+  color: white;
+  font-family: myfont1;
+  font-size: 50px;
+  padding-top: 20px;
+}
+.imghome {
+  max-width: 50%;
+  border: 1px solid white;
+  height: auto;
+}
+
+.nav-item a {
+  color: white;
+  font-size: 15;
+}
+.nav-item a:hover {
+  color: #d85353;
+}
+.lead {
+  color: white;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.first {
+  padding-top: 20px;
+}
+/* end home */
+
+/* about */
+
+.about {
+  height: 100vh;
+  width: 100%;
+  background-color: #191919;
+}
+.container {
+  overflow: hidden;
+  position: relative;
+}
+.imgabout {
+  max-width: 65%;
+  padding-top: 20px;
+  transition: 0.5s ease;
+}
+.img:nth-child(2) {
+  transition-delay: 200ms;
+}
+.prf {
+  box-shadow: 8px 8px 10px rgba(248, 248, 248, 0.2);
+}
+.imgabout:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.jdlprofil {
+  font-family: myfont2;
+  font-size: 25px;
+  padding-top: 10%;
+}
+.jdlabout {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+.isiabout {
+  color: white;
+}
+.kotak {
+  padding: 20px;
+  padding-top: 0;
+
+  background-color: black;
+}
+
+.kotak h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.kotak p {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 14px;
+  font-family: inherit;
+}
+/* end about */
+
+/* service */
+.service {
+  height: 100vh;
+  background-color: black;
+}
+
+.jdlser {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+.serv {
+  box-shadow: 8px 8px 10px rgba(248, 248, 248, 0.2);
+}
+/* end service */
+
+/* hoby */
+.hoby {
+  width: 100%;
+  height: 100vh;
+  background-color: #191919;
+  padding-bottom: 20px;
+}
+.jdlhoby {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+@media (max-width: 768px) {
+  .hoby {
+    height: 100%;
+    padding-bottom: 10%;
+  }
+}
+
+.card-body {
+  background-color: black;
+  color: white;
+}
+.button {
+  background-color: #d85353;
+  color: white;
+  text-decoration: none;
+  border: 1px solid transparent;
+  padding: 3px 5px;
+  border-radius: 4px;
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+.button:hover {
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #d85353;
+  color: white;
+  font-weight: bold;
+}
+.card-subtitle {
+  padding-bottom: 3px;
+}
+.hob {
+  border: none;
+  box-shadow: 8px 5px 10px rgba(248, 248, 248, 0.2);
+}
+/* end hoby */
+
+/* kontak */
+.contact {
+  height: 40vh;
+  background-color: black;
+}
+.jdlct {
+  padding-top: 20px;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+.subt {
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.sosial a {
+  font-size: 40px;
+  padding: 13px;
+}
+.sosial:hover {
+  transition: 0.3s;
+  cursor: pointer;
+}
+/* end kontak */
